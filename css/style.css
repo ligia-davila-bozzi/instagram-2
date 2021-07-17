@@ -169,7 +169,7 @@ ion-icon {
   justify-content: space-between;
 
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -186,14 +186,27 @@ ion-icon {
 .post strong {
   font-weight: bold;
 }
+.post .comentarios {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.post .comentarios p + p {
+  margin-top: 10px;
+}
+.post .comentarios a {
+  color: #00376B;
+}
 .post .enviar-comentario {
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   margin-top: 20px;
+  padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  border-top: 1px solid #dbdbdb;
 }
 .post .enviar-comentario input {
   width: 85%;
