@@ -11,7 +11,8 @@ img {
   display: block;
 }
 ion-icon {
-  font-size: 22px;
+  font-size: 24px;
+  cursor: pointer;
 }
 .insta-options {
   display: flex;
@@ -42,6 +43,7 @@ ion-icon {
   width: 100px;
   padding-left: 10px;
   border-left: 1px solid #dbdbdb;
+  cursor: pointer;
 }
 .top-menu .logo {
   display: flex;
@@ -49,10 +51,11 @@ ion-icon {
   gap: 10px;
 }
 .top-menu input {
-  width: 30%;
+  width: 25%;
   text-align: center;
   background-color: #fafafa;
   border: 1px solid #dbdbdb;
+  border-radius: 4px;
   padding: 5px 0;
 }
 .top-menu .mobile-icon {
@@ -182,6 +185,31 @@ ion-icon {
 }
 .post strong {
   font-weight: bold;
+}
+.post .enviar-comentario {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.post .enviar-comentario input {
+  width: 85%;
+  font-size: 14px;
+  
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+}
+.post .enviar-comentario button {
+  color: #139ef2;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 /* sidebar */
