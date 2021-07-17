@@ -119,7 +119,7 @@ ion-icon {
   top: 5px;
   left: 5px;
 }
-.arrow {
+.stories .arrow {
   position: absolute;
   top: 50%;
   right: 10px;
@@ -128,6 +128,8 @@ ion-icon {
 
   width: 26px;
   cursor: pointer;
+  box-shadow: 0 0 5px 1px #dbdbdb;
+  border-radius: 50px;
 }
 
 /* Website - Posts */
@@ -240,6 +242,7 @@ ion-icon {
 }
 .sidebar .profile strong {
   font-size: 14px;
+  font-weight: bold;
   color: #262626;
 }
 .sidebar .profile p {
@@ -255,6 +258,7 @@ ion-icon {
 }
 .sidebar .sugestoes-top a {
   color: #262626;
+  font-weight: bold;
 }
 .sidebar .sugestao {
   display: flex;
@@ -272,7 +276,12 @@ ion-icon {
 }
 .sidebar .sugestao a {
   font-size: 12px;
+  font-weight: bold;
   color: #139ef2;
+  transition: .3s;
+}
+.sidebar .sugestao a:hover {
+  filter: brightness(0.6);
 }
 .sidebar .user {
   display: flex;
